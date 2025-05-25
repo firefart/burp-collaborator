@@ -1,0 +1,3 @@
+*.jar
+config/
+!config/.keep
