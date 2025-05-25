@@ -45,7 +45,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          platforms: linux/amd64,linux/arm/v7,linux/arm64/v8
+          platforms: linux/amd64,linux/arm64/v8
           tags: |
             firefart/burp-collaborator:latest
             ghcr.io/firefart/burp-collaborator:latest
