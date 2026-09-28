@@ -1,4 +1,4 @@
-FROM amazoncorretto:26-alpine
+FROM amazoncorretto:27-alpine
 
 ENV JAVA_OPTIONS=""
 
